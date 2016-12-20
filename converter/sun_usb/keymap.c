@@ -122,6 +122,14 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     FIND,   CUT,     CAPS, LALT, LGUI,HENK,  SPC,            MHEN,KANA,RGUI,APP, RALT,  LEFT,DOWN,RGHT,  P0,      PDOT
     ),
 */
+    KEYMAP(
+         HELP,       ESC, F1, F2, F3, F4,         F5, F6, F7, F8,         F9, F10,F11,F12,   PSCR,SLCK,PAUS,  MUTE,VOLD,VOLU,PWR,
+    STOP,   AGAIN,   GRV,1,  2,  3,  4,  5,  6,  7,  8,  9,  0,   MINS,EQL, BSPC,BSPC,   INS, HOME,PGUP,  NLCK,PSLS,PAST,PMNS,
+    MENU,   UNDO,    TAB, Q,  W,  E,  R,  T,  Y,  U,  I,  O,  P,   LBRC,RBRC,    BSLS,  DEL, END, PGDN,  P7,  P8, P9,  PPLS,
+    SELECT, COPY,    CAPS, A,  S,  D,  F,  G,  H,  J,  K,  L,  SCLN,QUOT,        ENT,                    P4,  P5, P6,
+    EXECUTE,PASTE,   LSFT,  Z,  X,  C,  V,  B,  N,  M,  COMM,DOT,SLSH,           RSFT,       UP,         P1,  P2, P3,  PENT,
+    FIND,   CUT,     LCTL, LALT, LGUI,HENK,  SPC,            MHEN,KANA,RGUI,APP, RALT,  LEFT,DOWN,RGHT,  P0,      PDOT
+    ),
     // 0: default
     SHORT_TYPE(
         STOP, F1,F2,F3,F4, F5, F6,   CUT,PASTE,COPY,PWR,    INS, HOME,PGUP,
